@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,18 +39,18 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="6" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="58" name="bCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="14" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="6" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="58" name="bCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -4018,8 +4018,12 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <part name="C14" library="SparkFun-Capacitors" deviceset="10UF-6.3V-20%(1206)" device="" value="1uF"/>
 <part name="STANDOFF1" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
 <part name="STANDOFF2" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
-<part name="STANDOFF3" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
 <part name="STANDOFF4" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
+<part name="STANDOFF3" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
+<part name="S2" library="PX4FMUv1.7.1" deviceset="PIXHAWK2_SWITCH-MOMENTARY-2" device=""/>
+<part name="R4" library="SparkFun-Resistors" deviceset="100OHM1/10W1%(0603)" device="" value="100"/>
+<part name="R5" library="SparkFun-Resistors" deviceset="100OHM1/10W1%(0603)" device="" value="100"/>
+<part name="3.3V1" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4095,8 +4099,12 @@ uses a 0603 capacitor for C8</text>
 <instance part="C14" gate="G$1" x="373.38" y="114.3"/>
 <instance part="STANDOFF1" gate="G$1" x="114.3" y="248.92"/>
 <instance part="STANDOFF2" gate="G$1" x="119.38" y="248.92"/>
-<instance part="STANDOFF3" gate="G$1" x="124.46" y="248.92"/>
 <instance part="STANDOFF4" gate="G$1" x="129.54" y="248.92"/>
+<instance part="STANDOFF3" gate="G$1" x="124.46" y="248.92"/>
+<instance part="S2" gate="G$1" x="233.68" y="38.1"/>
+<instance part="R4" gate="G$1" x="220.98" y="38.1"/>
+<instance part="R5" gate="G$1" x="246.38" y="38.1"/>
+<instance part="3.3V1" gate="G$1" x="254" y="43.18" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -4105,12 +4113,6 @@ uses a 0603 capacitor for C8</text>
 <segment>
 <pinref part="JIOH" gate="G$1" pin="1"/>
 <wire x1="33.02" y1="213.36" x2="40.64" y2="213.36" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="JAD" gate="G$1" pin="1"/>
-<wire x1="33.02" y1="152.4" x2="40.64" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -4133,6 +4135,12 @@ uses a 0603 capacitor for C8</text>
 <pinref part="JPOWER" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="154.94" x2="86.36" y2="154.94" width="0.1524" layer="91"/>
 <label x="83.82" y="154.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="251.46" y1="38.1" x2="254" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="254" y1="38.1" x2="254" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="3.3V1" gate="G$1" pin="3.3V"/>
 </segment>
 </net>
 <net name="VDD" class="0">
@@ -4501,12 +4509,22 @@ uses a 0603 capacitor for C8</text>
 <wire x1="198.12" y1="45.72" x2="205.74" y2="45.72" width="0.1524" layer="91"/>
 <label x="203.2" y="45.72" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JAD" gate="G$1" pin="1"/>
+<wire x1="33.02" y1="152.4" x2="40.64" y2="152.4" width="0.1524" layer="91"/>
+<label x="35.56" y="152.4" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="ADCH1" class="0">
 <segment>
 <pinref part="MCU" gate="D" pin="PD1/ADC0_CH1/DAC0_OUT1ALT/OPAMP_OUT1ALT#4/DBG_SWO#2/PCNT2_S1IN#0/TIM0_CC0#3/US1_RX#1"/>
 <wire x1="198.12" y1="48.26" x2="205.74" y2="48.26" width="0.1524" layer="91"/>
 <label x="203.2" y="48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JAD" gate="G$1" pin="2"/>
+<wire x1="33.02" y1="154.94" x2="40.64" y2="154.94" width="0.1524" layer="91"/>
+<label x="35.56" y="154.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ADCH2" class="0">
@@ -4515,12 +4533,22 @@ uses a 0603 capacitor for C8</text>
 <wire x1="198.12" y1="50.8" x2="205.74" y2="50.8" width="0.1524" layer="91"/>
 <label x="203.2" y="50.8" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JAD" gate="G$1" pin="3"/>
+<wire x1="33.02" y1="157.48" x2="40.64" y2="157.48" width="0.1524" layer="91"/>
+<label x="35.56" y="157.48" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="ADCH3" class="0">
 <segment>
 <pinref part="MCU" gate="D" pin="PD3/ADC0_CH3/DAC0_N2/OPAMP_N2/ETM_TD1#0,2/TIM0_CC2#3/US1_CS#1"/>
 <wire x1="198.12" y1="53.34" x2="205.74" y2="53.34" width="0.1524" layer="91"/>
 <label x="203.2" y="53.34" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JAD" gate="G$1" pin="4"/>
+<wire x1="33.02" y1="160.02" x2="40.64" y2="160.02" width="0.1524" layer="91"/>
+<label x="35.56" y="160.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ADCH4" class="0">
@@ -4529,12 +4557,22 @@ uses a 0603 capacitor for C8</text>
 <wire x1="198.12" y1="55.88" x2="205.74" y2="55.88" width="0.1524" layer="91"/>
 <label x="203.2" y="55.88" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JAD" gate="G$1" pin="5"/>
+<wire x1="33.02" y1="162.56" x2="40.64" y2="162.56" width="0.1524" layer="91"/>
+<label x="35.56" y="162.56" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="ADCH5" class="0">
 <segment>
 <pinref part="MCU" gate="D" pin="PD5/ADC0_CH5/DAC0_OUT2/OPAMP_OUT2#0/ETM_TD3#0,2/LEU0_RX#0"/>
 <wire x1="198.12" y1="58.42" x2="205.74" y2="58.42" width="0.1524" layer="91"/>
 <label x="203.2" y="58.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JAD" gate="G$1" pin="6"/>
+<wire x1="33.02" y1="165.1" x2="40.64" y2="165.1" width="0.1524" layer="91"/>
+<label x="35.56" y="165.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PD6" class="0">
@@ -4556,6 +4594,19 @@ uses a 0603 capacitor for C8</text>
 <pinref part="MCU" gate="D" pin="PD8/BU_VIN/CMU_CLK1#1"/>
 <wire x1="198.12" y1="66.04" x2="205.74" y2="66.04" width="0.1524" layer="91"/>
 <label x="203.2" y="66.04" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="S2" gate="G$1" pin="1"/>
+<wire x1="226.06" y1="38.1" x2="228.6" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="215.9" y1="38.1" x2="213.36" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
