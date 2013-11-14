@@ -125,8 +125,8 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="5.588" y2="0" width="0" layer="20"/>
-<wire x1="10.668" y1="0" x2="49.53" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="5.842" y2="0" width="0" layer="20"/>
+<wire x1="10.922" y1="0" x2="49.53" y2="0" width="0" layer="20"/>
 <wire x1="52.07" y1="5.08" x2="52.07" y2="37.846" width="0" layer="20"/>
 <wire x1="49.53" y1="53.34" x2="0" y2="53.34" width="0" layer="20"/>
 <wire x1="0" y1="53.34" x2="0" y2="46.736" width="0" layer="20"/>
@@ -149,11 +149,11 @@
 <wire x1="0.04358125" y1="16.002" x2="0" y2="16.002" width="0" layer="20"/>
 <wire x1="0.762" y1="7.06841875" x2="0.04358125" y2="6.35" width="0" layer="20" curve="-90"/>
 <wire x1="0.04358125" y1="6.35" x2="0" y2="6.35" width="0" layer="20"/>
-<wire x1="10.668" y1="0" x2="10.668" y2="0.04358125" width="0" layer="20"/>
-<wire x1="10.668" y1="0.04358125" x2="9.94958125" y2="0.762" width="0" layer="20" curve="90"/>
-<wire x1="9.94958125" y1="0.762" x2="6.30641875" y2="0.762" width="0" layer="20"/>
-<wire x1="6.30641875" y1="0.762" x2="5.588" y2="0.04358125" width="0" layer="20" curve="90"/>
-<wire x1="5.588" y1="0.04358125" x2="5.588" y2="0" width="0" layer="20"/>
+<wire x1="10.922" y1="0" x2="10.922" y2="0.04358125" width="0" layer="20"/>
+<wire x1="10.922" y1="0.04358125" x2="10.20358125" y2="0.762" width="0" layer="20" curve="90"/>
+<wire x1="10.20358125" y1="0.762" x2="6.56041875" y2="0.762" width="0" layer="20"/>
+<wire x1="6.56041875" y1="0.762" x2="5.842" y2="0.04358125" width="0" layer="20" curve="90"/>
+<wire x1="5.842" y1="0.04358125" x2="5.842" y2="0" width="0" layer="20"/>
 <wire x1="0" y1="33.782" x2="0.04358125" y2="33.782" width="0" layer="20"/>
 <wire x1="0.04358125" y1="33.782" x2="0.762" y2="34.50041875" width="0" layer="20" curve="90"/>
 <wire x1="0.762" y1="34.50041875" x2="0.762" y2="46.01758125" width="0" layer="20"/>
@@ -4543,14 +4543,14 @@ design rules under a new name.</description>
 <element name="JEX" library="SparkFun-Connectors" package="2X8" value="M08X2" x="49.53" y="12.7" rot="R90"/>
 <element name="PMIC1" library="maple-r5" package="SOT23" value="MCP1700T-DIGITAL" x="14.986" y="11.176"/>
 <element name="PMIC2" library="maple-r5" package="SOT23" value="MCP1700T-ANALOG" x="21.082" y="11.176"/>
-<element name="R1" library="SparkFun-Resistors" package="0603-RES" value="100" x="11.938" y="2.286" rot="R90">
-<attribute name="PROD_ID" value="RES-07863" x="11.938" y="2.286" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="R1" library="SparkFun-Resistors" package="0603-RES" value="100" x="12.192" y="2.286" rot="R90">
+<attribute name="PROD_ID" value="RES-07863" x="12.192" y="2.286" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C3" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="13.97" y="2.286" rot="R90">
 <attribute name="PROD_ID" value="CAP-08604" x="13.97" y="2.286" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="USB" library="PX4FMUv1.7.1" package="PIXHAWK2_MOLEX-47346-0001" value="PIXHAWK2_MOLEX-47346-0001" x="2.286" y="11.176"/>
-<element name="S1" library="PX4FMUv1.7.1" package="PIXHAWK2_EVQP7J01K" value="PIXHAWK2_SWITCH-MOMENTARY-2" x="8.128" y="2.286"/>
+<element name="S1" library="PX4FMUv1.7.1" package="PIXHAWK2_EVQP7J01K" value="PIXHAWK2_SWITCH-MOMENTARY-2" x="8.382" y="2.286"/>
 <element name="C4" library="SparkFun-Capacitors" package="0603-CAP" value="1.0uF" x="42.672" y="22.098">
 <attribute name="PROD_ID" value="CAP-00868" x="42.672" y="22.098" size="1.778" layer="27" display="off"/>
 </element>
@@ -4749,7 +4749,7 @@ design rules under a new name.</description>
 <wire x1="2.286" y1="14.126" x2="4.586" y2="13.676" width="0" layer="19" extent="1-1"/>
 <wire x1="9.776" y1="14.732" x2="4.586" y2="13.676" width="0" layer="19" extent="1-1"/>
 <wire x1="13.97" y1="1.436" x2="18.034" y2="6.982" width="0" layer="19" extent="1-1"/>
-<wire x1="11.938" y1="1.436" x2="13.97" y2="1.436" width="0" layer="19" extent="1-1"/>
+<wire x1="12.192" y1="1.436" x2="13.97" y2="1.436" width="0" layer="19" extent="1-1"/>
 <wire x1="23.114" y1="19.646" x2="24.296" y2="12.192" width="0" layer="19" extent="1-1"/>
 <wire x1="21.082" y1="19.646" x2="23.114" y2="19.646" width="0" layer="19" extent="1-1"/>
 <wire x1="23.114" y1="23.788" x2="23.114" y2="19.646" width="0" layer="19" extent="1-1"/>
@@ -4781,7 +4781,7 @@ design rules under a new name.</description>
 <contactref element="JPOWER" pad="1"/>
 <wire x1="16.51" y1="2.54" x2="30.77" y2="15.586" width="0" layer="19" extent="1-1"/>
 <wire x1="13.97" y1="3.136" x2="16.51" y2="2.54" width="0" layer="19" extent="1-1"/>
-<wire x1="6.328" y1="1.561" x2="13.97" y2="3.136" width="0" layer="19" extent="1-1"/>
+<wire x1="6.582" y1="1.561" x2="13.97" y2="3.136" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
 <contactref element="MCU" pad="40"/>
@@ -4796,7 +4796,7 @@ design rules under a new name.</description>
 <signal name="N$6">
 <contactref element="R1" pad="2"/>
 <contactref element="S1" pad="A1"/>
-<wire x1="6.328" y1="3.011" x2="11.938" y2="3.136" width="0" layer="19" extent="1-1"/>
+<wire x1="6.582" y1="3.011" x2="12.192" y2="3.136" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USB_DP">
 <contactref element="MCU" pad="48"/>
