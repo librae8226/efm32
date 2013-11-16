@@ -3944,7 +3944,7 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="CAP-00867" x="25.146" y="12.192" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="L1" library="SparkFun-Passives" package="0603" value="" x="10.414" y="12.446" rot="R180"/>
-<element name="U1" library="FT232H-basic" package="SOT95P275X110-6N" value="IP4220CZ6SSOT-6" x="10.414" y="9.398">
+<element name="U1" library="FT232H-basic" package="SOT95P275X110-6N" value="IP4220CZ6" x="10.414" y="9.398">
 <attribute name="PACKAGE" value="SSOT-6" x="10.414" y="9.398" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="61M6815" x="10.414" y="9.398" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="IP4220CZ6" x="10.414" y="9.398" size="1.778" layer="27" display="off"/>
