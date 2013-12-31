@@ -10015,8 +10015,8 @@ AVDDs, VDD_USB and DVDD separately.</text>
 <instance part="JIOH" gate="G$1" x="27.94" y="220.98"/>
 <instance part="JIOL" gate="G$1" x="27.94" y="190.5"/>
 <instance part="JAD" gate="G$1" x="27.94" y="157.48"/>
-<instance part="JPOWER" gate="G$1" x="73.66" y="193.04"/>
-<instance part="JEX" gate="G$1" x="71.12" y="223.52" rot="R180"/>
+<instance part="JPOWER" gate="G$1" x="83.82" y="193.04"/>
+<instance part="JEX" gate="G$1" x="81.28" y="223.52" rot="R180"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="PMIC1" gate="G$1" x="350.52" y="109.22" rot="MR0"/>
 <instance part="PMIC2" gate="G$1" x="314.96" y="109.22"/>
@@ -10131,8 +10131,8 @@ AVDDs, VDD_USB and DVDD separately.</text>
 </segment>
 <segment>
 <pinref part="JPOWER" gate="G$1" pin="2"/>
-<wire x1="78.74" y1="190.5" x2="86.36" y2="190.5" width="0.1524" layer="91"/>
-<label x="81.28" y="190.5" size="1.778" layer="95"/>
+<wire x1="88.9" y1="190.5" x2="96.52" y2="190.5" width="0.1524" layer="91"/>
+<label x="91.44" y="190.5" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
@@ -10230,8 +10230,8 @@ AVDDs, VDD_USB and DVDD separately.</text>
 </segment>
 <segment>
 <pinref part="JPOWER" gate="G$1" pin="3"/>
-<wire x1="78.74" y1="193.04" x2="86.36" y2="193.04" width="0.1524" layer="91"/>
-<label x="81.28" y="193.04" size="1.778" layer="95"/>
+<wire x1="88.9" y1="193.04" x2="96.52" y2="193.04" width="0.1524" layer="91"/>
+<label x="91.44" y="193.04" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="MCU" gate="PWR" pin="AVDD_0"/>
@@ -10383,13 +10383,13 @@ AVDDs, VDD_USB and DVDD separately.</text>
 </segment>
 <segment>
 <pinref part="JPOWER" gate="G$1" pin="5"/>
-<wire x1="78.74" y1="198.12" x2="86.36" y2="198.12" width="0.1524" layer="91"/>
-<label x="81.28" y="198.12" size="1.778" layer="95"/>
+<wire x1="88.9" y1="198.12" x2="96.52" y2="198.12" width="0.1524" layer="91"/>
+<label x="91.44" y="198.12" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="JPOWER" gate="G$1" pin="4"/>
-<wire x1="78.74" y1="195.58" x2="86.36" y2="195.58" width="0.1524" layer="91"/>
-<label x="81.28" y="195.58" size="1.778" layer="95"/>
+<wire x1="88.9" y1="195.58" x2="96.52" y2="195.58" width="0.1524" layer="91"/>
+<label x="91.44" y="195.58" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="C15" gate="G$1" pin="2"/>
@@ -10555,8 +10555,8 @@ AVDDs, VDD_USB and DVDD separately.</text>
 </segment>
 <segment>
 <pinref part="JPOWER" gate="G$1" pin="6"/>
-<wire x1="78.74" y1="200.66" x2="86.36" y2="200.66" width="0.1524" layer="91"/>
-<label x="81.28" y="200.66" size="1.778" layer="95"/>
+<wire x1="88.9" y1="200.66" x2="96.52" y2="200.66" width="0.1524" layer="91"/>
+<label x="91.44" y="200.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RESET" class="0">
@@ -10573,8 +10573,8 @@ AVDDs, VDD_USB and DVDD separately.</text>
 </segment>
 <segment>
 <pinref part="JPOWER" gate="G$1" pin="1"/>
-<wire x1="78.74" y1="187.96" x2="86.36" y2="187.96" width="0.1524" layer="91"/>
-<label x="81.28" y="187.96" size="1.778" layer="95"/>
+<wire x1="88.9" y1="187.96" x2="96.52" y2="187.96" width="0.1524" layer="91"/>
+<label x="91.44" y="187.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -11233,6 +11233,78 @@ AVDDs, VDD_USB and DVDD separately.</text>
 <pinref part="JIOL" gate="G$1" pin="2"/>
 <wire x1="33.02" y1="185.42" x2="40.64" y2="185.42" width="0.1524" layer="91"/>
 <label x="35.56" y="185.42" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="MCU" gate="F" pin="PF5/PRS_CH2#1/TIM0_CDTI2#2,5/USB_VBUSEN"/>
+<wire x1="241.3" y1="116.84" x2="248.92" y2="116.84" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="MCU" gate="E" pin="PE8/PCNT2_S0IN#1/PRS_CH3#1"/>
+<wire x1="241.3" y1="78.74" x2="248.92" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="MCU" gate="E" pin="PE9/PCNT2_S1IN#1"/>
+<wire x1="241.3" y1="81.28" x2="248.92" y2="81.28" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="JEX" gate="G$1" pin="11"/>
+<wire x1="88.9" y1="226.06" x2="96.52" y2="226.06" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="JEX" gate="G$1" pin="13"/>
+<wire x1="88.9" y1="228.6" x2="96.52" y2="228.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="JEX" gate="G$1" pin="15"/>
+<wire x1="88.9" y1="231.14" x2="96.52" y2="231.14" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SWIO" class="0">
+<segment>
+<pinref part="JEX" gate="G$1" pin="14"/>
+<wire x1="73.66" y1="228.6" x2="66.04" y2="228.6" width="0.1524" layer="91"/>
+<label x="66.04" y="228.6" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="MCU" gate="F" pin="PF1/DBG_SWDIO#0,1,2,3/GPIO_EM4WU3/I2C0_SCL#5/LETIM0_OUT1#2/LEU0_RX#3/TIM0_CC1#5/US1_CS#2"/>
+<wire x1="241.3" y1="111.76" x2="248.92" y2="111.76" width="0.1524" layer="91"/>
+<label x="243.84" y="111.76" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SWO" class="0">
+<segment>
+<pinref part="JEX" gate="G$1" pin="16"/>
+<wire x1="73.66" y1="231.14" x2="66.04" y2="231.14" width="0.1524" layer="91"/>
+<label x="66.04" y="231.14" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="MCU" gate="F" pin="PF2/ACMP1_O#0/DBG_SWO#0/GPIO_EM4WU4/LEU0_TX#4/TIM0_CC2#5"/>
+<wire x1="241.3" y1="114.3" x2="248.92" y2="114.3" width="0.1524" layer="91"/>
+<label x="243.84" y="114.3" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SWCLK" class="0">
+<segment>
+<pinref part="JEX" gate="G$1" pin="12"/>
+<wire x1="73.66" y1="226.06" x2="66.04" y2="226.06" width="0.1524" layer="91"/>
+<label x="66.04" y="226.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="MCU" gate="F" pin="PF0/DBG_SWCLK#0,1,2,3/I2C0_SDA#5/LETIM0_OUT0#2/LEU0_TX#3/TIM0_CC0#5/US1_CLK#2"/>
+<wire x1="241.3" y1="109.22" x2="248.92" y2="109.22" width="0.1524" layer="91"/>
+<label x="243.84" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
