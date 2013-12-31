@@ -10867,12 +10867,22 @@ AVDDs, VDD_USB and DVDD separately.</text>
 <wire x1="241.3" y1="83.82" x2="248.92" y2="83.82" width="0.1524" layer="91"/>
 <label x="243.84" y="83.82" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JIOH" gate="G$1" pin="4"/>
+<wire x1="33.02" y1="220.98" x2="40.64" y2="220.98" width="0.1524" layer="91"/>
+<label x="35.56" y="220.98" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="US0_RX" class="0">
 <segment>
 <pinref part="MCU" gate="E" pin="PE11/LES_ALTEX5/TIM1_CC1#1/US0_RX#0"/>
 <wire x1="241.3" y1="86.36" x2="248.92" y2="86.36" width="0.1524" layer="91"/>
 <label x="243.84" y="86.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JIOH" gate="G$1" pin="5"/>
+<wire x1="33.02" y1="223.52" x2="40.64" y2="223.52" width="0.1524" layer="91"/>
+<label x="35.56" y="223.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="US1_TX" class="0">
@@ -11159,18 +11169,6 @@ AVDDs, VDD_USB and DVDD separately.</text>
 <label x="129.54" y="175.26" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="US1_CLK_2" class="0">
-<segment>
-<pinref part="JIOH" gate="G$1" pin="6"/>
-<wire x1="33.02" y1="226.06" x2="40.64" y2="226.06" width="0.1524" layer="91"/>
-<label x="35.56" y="226.06" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="MCU" gate="F" pin="PF0/DBG_SWCLK#0,1,2,3/I2C0_SDA#5/LETIM0_OUT0#2/LEU0_TX#3/TIM0_CC0#5/US1_CLK#2"/>
-<wire x1="241.3" y1="109.22" x2="248.92" y2="109.22" width="0.1524" layer="91"/>
-<label x="243.84" y="109.22" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="IO8" class="0">
 <segment>
 <pinref part="MCU" gate="A" pin="PA3/ETM_TD1#3/LES_ALTEX2/TIM0_CDTI0#0"/>
@@ -11195,40 +11193,28 @@ AVDDs, VDD_USB and DVDD separately.</text>
 <label x="35.56" y="215.9" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="US1_RX_2" class="0">
+<net name="US0_CLK" class="0">
 <segment>
-<pinref part="JIOH" gate="G$1" pin="5"/>
-<wire x1="33.02" y1="223.52" x2="40.64" y2="223.52" width="0.1524" layer="91"/>
-<label x="35.56" y="223.52" size="1.778" layer="95"/>
+<pinref part="MCU" gate="E" pin="PE12/CMU_CLK1#2/I2C0_SDA#6/LES_ALTEX6/TIM1_CC2#1/US0_CLK#0/US0_RX#3"/>
+<wire x1="241.3" y1="88.9" x2="248.92" y2="88.9" width="0.1524" layer="91"/>
+<label x="243.84" y="88.9" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="MCU" gate="D" pin="PD6/ACMP0_O#2/ADC0_CH6/DAC0_P1/OPAMP_P1/ETM_TD0#0/I2C0_SDA#1/LES_ALTEX0/LETIM0_OUT0#0/PCNT0_S0IN#3/TIM1_CC0#4/US1_RX#2"/>
-<wire x1="198.12" y1="60.96" x2="205.74" y2="60.96" width="0.1524" layer="91"/>
-<label x="200.66" y="60.96" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="US1_TX_2" class="0">
-<segment>
-<pinref part="JIOH" gate="G$1" pin="4"/>
-<wire x1="33.02" y1="220.98" x2="40.64" y2="220.98" width="0.1524" layer="91"/>
-<label x="35.56" y="220.98" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="MCU" gate="D" pin="PD7/ACMP1_O#2/ADC0_CH7/CMU_CLK0#2/DAC0_N1/OPAMP_N1/ETM_TCLK#0/I2C0_SCL#1/LES_ALTEX1/LETIM0_OUT1#0/PCNT0_S1IN#3/TIM1_CC1#4/US1_TX#2"/>
-<wire x1="198.12" y1="63.5" x2="205.74" y2="63.5" width="0.1524" layer="91"/>
-<label x="200.66" y="63.5" size="1.778" layer="95"/>
+<pinref part="JIOH" gate="G$1" pin="6"/>
+<wire x1="33.02" y1="226.06" x2="40.64" y2="226.06" width="0.1524" layer="91"/>
+<label x="35.56" y="226.06" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="US1_CS_2" class="0">
+<net name="US0_CS" class="0">
+<segment>
+<pinref part="MCU" gate="E" pin="PE13/ACMP0_O#0/GPIO_EM4WU5/I2C0_SCL#6/LES_ALTEX7/US0_CS#0/US0_TX#3"/>
+<wire x1="241.3" y1="91.44" x2="248.92" y2="91.44" width="0.1524" layer="91"/>
+<label x="243.84" y="91.44" size="1.778" layer="95"/>
+</segment>
 <segment>
 <pinref part="JIOH" gate="G$1" pin="3"/>
 <wire x1="33.02" y1="218.44" x2="40.64" y2="218.44" width="0.1524" layer="91"/>
 <label x="35.56" y="218.44" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="MCU" gate="F" pin="PF1/DBG_SWDIO#0,1,2,3/GPIO_EM4WU3/I2C0_SCL#5/LETIM0_OUT1#2/LEU0_RX#3/TIM0_CC1#5/US1_CS#2"/>
-<wire x1="241.3" y1="111.76" x2="248.92" y2="111.76" width="0.1524" layer="91"/>
-<label x="243.84" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
