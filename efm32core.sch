@@ -10119,12 +10119,6 @@ AVDDs, VDD_USB and DVDD separately.</text>
 <busses>
 </busses>
 <nets>
-<net name="N$3" class="0">
-<segment>
-<pinref part="JIOL" gate="G$1" pin="1"/>
-<wire x1="33.02" y1="182.88" x2="40.64" y2="182.88" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="3.3V" class="0">
 <segment>
 <pinref part="PMIC1" gate="G$1" pin="VOUT"/>
@@ -11215,6 +11209,30 @@ AVDDs, VDD_USB and DVDD separately.</text>
 <pinref part="JIOH" gate="G$1" pin="3"/>
 <wire x1="33.02" y1="218.44" x2="40.64" y2="218.44" width="0.1524" layer="91"/>
 <label x="35.56" y="218.44" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LEU0_RX_2" class="0">
+<segment>
+<pinref part="MCU" gate="E" pin="PE15/LEU0_RX#2/TIM3_CC1"/>
+<wire x1="241.3" y1="96.52" x2="248.92" y2="96.52" width="0.1524" layer="91"/>
+<label x="243.84" y="96.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JIOL" gate="G$1" pin="1"/>
+<wire x1="33.02" y1="182.88" x2="40.64" y2="182.88" width="0.1524" layer="91"/>
+<label x="35.56" y="182.88" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LEU0_TX_2" class="0">
+<segment>
+<pinref part="MCU" gate="E" pin="PE14/LEU0_TX#2/TIM3_CC0"/>
+<wire x1="241.3" y1="93.98" x2="248.92" y2="93.98" width="0.1524" layer="91"/>
+<label x="243.84" y="93.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JIOL" gate="G$1" pin="2"/>
+<wire x1="33.02" y1="185.42" x2="40.64" y2="185.42" width="0.1524" layer="91"/>
+<label x="35.56" y="185.42" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
